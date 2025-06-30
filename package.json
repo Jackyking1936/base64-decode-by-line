@@ -1,6 +1,6 @@
 {
   "name": "base64-decode-by-line",
-  "displayName": "base64_decode_by_line",
+  "displayName": "Base64 Decode BY LINE",
   "description": "decode the whole file by line automatically",
   "version": "1.0.0",
   "publisher": "Joukey",

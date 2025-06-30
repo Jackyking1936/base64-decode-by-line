@@ -2,7 +2,20 @@
   "name": "base64-decode-by-line",
   "displayName": "base64_decode_by_line",
   "description": "decode the whole file by line automatically",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jackyking1936/base64-decode-by-line.git"
+  },
+  "author": {
+    "name": "Joukey",
+    "email": "Joukey@example.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Jackyking1936/base64-decode-by-line#readme",
+  "bugs": {
+    "url": "hhttps://github.com/Jackyking1936/base64-decode-by-line/issues"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },

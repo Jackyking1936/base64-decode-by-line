@@ -2,8 +2,9 @@
   "name": "base64-decode-by-line",
   "displayName": "Base64 Decode BY LINE",
   "description": "decode the whole file by line automatically",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Joukey",
+  "icon": "base64_icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jackyking1936/base64-decode-by-line.git"

@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	let disposable = vscode.commands.registerCommand('base64-line-decoder.decodeLines', () => {
         const editor = vscode.window.activeTextEditor;
-        if (!editor) return;
+        if (!editor) {return;}
 
         const document = editor.document;
         const selection = editor.selection;
@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
 			try {
 				const buf = Buffer.from(line.trim(), 'base64');
 				const text = buf.toString('utf-8');
-				if (/�/.test(text)) throw new Error("contains replacement character");
+				if (/�/.test(text)) {throw new Error("contains replacement character");}
 				return text;
 			} catch (e) {
 				return `[decode error] ${line}`;

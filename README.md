@@ -1,32 +1,30 @@
-# base64-decode-by-line README
+# Base64 Line Decoder
 
-This is the README for your extension "base64-decode-by-line". This extension literally let you decode the base64 string by line
+A simple and lightweight VS Code extension that decodes base64 **line by line**.  
+Perfect for developers working with log files, network traffic, or encoded batch data.
 
-## Features
+## ✨ Features
 
-Simply use right click to decode your base64 string by line or use the hotkeys ```Ctrl+Alt+D```
+- Decode each selected line as base64
+- Keeps each decoded line in place
+- Supports multi-line selection
+- Fast and reliable decoding
+- Supports error reporting if a line can't be decoded
 
-> Tip: only one feature, nothing important
+## 📋 How to Use
 
-## Requirements
+1. Select one or more lines containing base64 strings
+2. Open the context menu (right-click) or use the shortcut:
+   - **Ctrl+Alt+D** (or Command+Option+D on macOS)
+3. Choose `Base64: Decode Each Line`
 
-I dont think there are much requirements
+Each line will be decoded individually and replaced with the decoded result.
 
-## Extension Settings
+## 🖱 Context Menu
 
-Nothing
+You can also access the feature via the right-click menu:
 
-## Known Issues
 
-Nothing for now
-
-## Release Notes
-
-This is the first version, and I think it will be the last too.
-
-### 1.0.0
-
-Initial release of Base64 Decode By Line
 
 <!-- ## Following extension guidelines
 
